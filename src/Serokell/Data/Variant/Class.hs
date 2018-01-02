@@ -28,4 +28,4 @@ instance ToVariant Double where
 
 instance FromVariant Double where
     fromVariant (VarFloat v) = pure v
-    fromVariant v = throwText $ sformat ("value is not Double: " % build) v
+--    fromVariant v = throwText $ sformat ("value is not Double: " % build) v
