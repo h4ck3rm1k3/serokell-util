@@ -1,4 +1,5 @@
-resolver: lts-10.1
+#resolver: lts-10.1
+resolver: nightly-2018-01-09
 packages: [.]
 
 nix:
@@ -8,3 +9,4 @@ extra-deps:
 - time-units-1.0.0
 - log-warper-1.8.5
 - universum-1.0.2
+- formatting-6.2.5
